@@ -130,3 +130,6 @@ dmypy.json
 
 # IDE staff
 .idea/
+
+# Project files
+input.yaml
