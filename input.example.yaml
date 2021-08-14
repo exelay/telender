@@ -1,0 +1,12 @@
+# Personal Telegram API keys
+api_keys:
+  api_id: your_api_id_here
+  api_hash: your_api_hash_here
+
+# List of target mailing users
+target_users:
+  - user_1
+  - user_2
+
+# Message text
+message: The message you want to send
