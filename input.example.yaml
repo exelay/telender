@@ -3,6 +3,9 @@ api_keys:
   api_id: your_api_id_here
   api_hash: your_api_hash_here
 
+# Telegram's username of sender
+sender: username
+
 # List of target mailing users
 target_users:
   - user_1
