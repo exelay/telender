@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "telender"
+name = "telesender"
 version = "0.1.0"
 description = ""
 authors = ["exelay <exelay.rapik@gmail.com>"]
