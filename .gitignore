@@ -133,3 +133,4 @@ dmypy.json
 
 # Project files
 input.yaml
+*.session
