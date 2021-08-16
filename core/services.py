@@ -20,8 +20,8 @@ class Sender:
         with open(self.input_file, 'r') as f:
             self.input_data = yaml.safe_load(f)
 
-    def _set_telegram_client(self):
-        api_id = self.input_data['api_id']
+    def _set_telegram_client(self):         # TODO: попробовать обойти авторизацию,
+        api_id = self.input_data['api_id']  #  либо складывать и искать файлы сессий в конкретной папке
         api_hash = self.input_data['api_hash']
         sender = self.input_data['sender']
         self.client = TelegramClient(sender, api_id, api_hash)
@@ -36,4 +36,3 @@ class Sender:
             loop.run_until_complete(
                 self.client.send_message(user, message)
             )
-
