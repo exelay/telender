@@ -1,6 +1,6 @@
 from cleo import Command
 
-from services import Sender
+from core.services import Sender
 
 
 class RunCommand(Command):
@@ -10,7 +10,7 @@ class RunCommand(Command):
     run
         {input-file? : Path to the input *.yaml file}
     """
-    default_input_file = 'input.yaml'
+    default_input_file = 'config/input.yaml'
 
     def handle(self):
         input_file = self.argument('input-file')

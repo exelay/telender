@@ -1,5 +1,5 @@
 from cleo import Application
-from run_command import RunCommand
+from core.run_command import RunCommand
 
 application = Application()
 application.add(RunCommand())
