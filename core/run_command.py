@@ -1,3 +1,4 @@
+# TODO изменить help message
 from cleo import Command
 
 from core.services import Sender
@@ -10,7 +11,7 @@ class RunCommand(Command):
     run
         {input-file? : Path to the input *.yaml file}
     """
-    default_input_file = 'config/input.yaml'
+    default_input_file = 'config/input.yaml'  # TODO сделать путь абсолютным
 
     def handle(self):
         input_file = self.argument('input-file')
