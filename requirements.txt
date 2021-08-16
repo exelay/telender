@@ -1,0 +1,3 @@
+cleo==0.8.1
+PyYAML==5.4.1
+Telethon==1.23.0
